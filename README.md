@@ -19,7 +19,7 @@ The 3-dimensional grids are stored in user-friendly 3-dimensional Numpy arrays a
 
 
 <p align="center">
-<img src="./Images/Example.png"  width="90%">
+<img src="Images/Example.png"  width="90%">
 </p>
 
 
@@ -66,7 +66,7 @@ ax.plot(xline, uline, linestyle[0], linewidth=2, color=myColors[0], label = case
 Output:
 
 <p align="center">
-<img src="./Images/u_x_velocity_profiles.png"  width="80%">
+<img src="Images/u_x_velocity_profiles.png"  width="80%">
 </p>
 
 
@@ -101,7 +101,7 @@ ax.set_aspect(1)
 ```
 
 <p align="center">
-<img src="./Images/crossflow_velocity_fields.png"  width="80%">
+<img src="Images/crossflow_velocity_fields.png"  width="80%">
 </p>
 
 
@@ -140,7 +140,7 @@ Output:
 
 
 <p align="center">
-<img src="./Images/crossflow_sections.png"  width="80%">
+<img src="Images/crossflow_sections.png"  width="80%">
 </p>
 
 ## Contributions
