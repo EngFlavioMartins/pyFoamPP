@@ -1,0 +1,6 @@
+pip install importlib
+pip install pickle
+pip install numpy
+pip install fluidfoam
+pip install scipy
+pip install matplotlib
