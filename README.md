@@ -1,6 +1,6 @@
 # pyFoamPP
  
-Welcome to the `Python-Foam-Post-Processing (pyFoamPP)` repository! This project provides a comprehensive framework to convert and manipulate OpenFOM solutions (case files) into Python's Numpy arrays.
+Welcome to the Python-Foam-Post-Processing (pyFoamPP) repository! This project offers a comprehensive framework to convert and manipulate OpenFOAM solutions (case files) into Python's Numpy arrays.
 
 ## Table of Contents
 
@@ -13,9 +13,9 @@ Welcome to the `Python-Foam-Post-Processing (pyFoamPP)` repository! This project
 
 ## Project Overview
 
-In this project, we extend the [fluidFoam](https://fluidfoam.readthedocs.io/en/latest/) project to account for non-structured [OpenFOAM](https://www.openfoam.com/) mesh files. Here, we adopt a fast Radial basis function (RBF) interpolation algorithm that converts non-structured OpenFOAM grid files into structured, 3-dimensional grids of homogeneous gridding spacing. 
+This project builds on the [fluidFoam](https://fluidfoam.readthedocs.io/en/latest/) framework to handle non-structured [OpenFOAM](https://www.openfoam.com/) mesh files. It employs a fast Radial Basis Function (RBF) interpolation algorithm to convert these non-structured grids into structured, 3-dimensional grids with uniform spacing.
 
-The 3-dimensional grids are stored in user-friendly 3-dimensional Numpy arrays and are automatically backed up into compressed files for future use.
+These 3D grids are stored in user-friendly Numpy arrays and are automatically backed up into compressed files for future use.
 
 
 <p align="center">
@@ -25,10 +25,9 @@ The 3-dimensional grids are stored in user-friendly 3-dimensional Numpy arrays a
 
 ## Features
 
-- **Loading files**: We adopt [fluidFoam](https://fluidfoam.readthedocs.io/en/latest/)'s framework for reading OpenFOAM's backup data and converting it into point data.
-- **Data interpolation**: We use a Radial basis function (RBF) interpolation algorithm to efficiently convert any input OpenFOAM grid file into 3-dimensional, homogeneously-seeded grids stored as Numpy arrays.
-- **Data interpolation**: The project includes tools and examples for analyzing the resulting (interpolated) numerical data related to aerodynamics, helping us draw insights from real-world tests.
-
+- **Loading files**: Utilizes [fluidFoam](https://fluidfoam.readthedocs.io/en/latest/)'s framework to read OpenFOAM backup data and convert it into point data.
+- **Data interpolation**: Implements an RBF interpolation algorithm to efficiently convert OpenFOAM grid files into 3-dimensional, uniformly-seeded grids stored as Numpy arrays.
+- **Data analysis**: Provides tools and examples for analyzing the interpolated numerical data, particularly for aerodynamic studies, enabling insights from real-world tests.
 
 
 ## Installation
